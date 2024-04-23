@@ -103,11 +103,16 @@ a {
     background-color: lightgrey;
 }
 
-.img {
+.header-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*.img {
     max-width: 20rem;
     text-align: center;
     margin-top: 1rem;
-}
+}*/
 
 .grid-img-section {
     max-width: 20rem;
@@ -220,7 +225,7 @@ a {
         padding: 1rem 2rem;
     }
 
-    img { max-width: 30rem;}
+    .header-img { width: 50%; }
 
     .main {
         display: flex;
@@ -265,6 +270,8 @@ a {
 
 @media (min-width: 1024px) {
     .logo-img {max-width: 12rem; }
+
+    .header-img { width: 60%; }
 
     .main,
     .grid-img-section { max-width: 60rem; }
